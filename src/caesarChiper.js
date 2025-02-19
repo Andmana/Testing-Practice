@@ -1,6 +1,5 @@
 function caesarChiper(str, k) {
     const asciis = [...str].map((char) => chiper(char, k));
-    console.log(asciis);
     return String.fromCharCode(...asciis);
 }
 
